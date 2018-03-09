@@ -3414,3 +3414,20 @@ div.usertext-edit.md-container:after {
 div.usertext-edit.md-container:hover:after { border-color: transparent; background: #c4918a }
 
 #chat { display: none }
+
+/*Traduccion a español*/
+.submit-link .morelink a:before
+{
+	content:"Enviar enlace"
+}
+.submit-text .morelink a:before
+{
+	content:"Enviar texto"
+}
+.sidebox.submit.disabled .morelink a:before
+{
+	width:300px;
+	content:"Envios restringidos"
+}
+/*Fín*/
+
